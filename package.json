@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "dev:first": "parcel serve src/first/index.html --port 3001",
+    "dev:second": "parcel serve src/second/index.html --port 3002",
+    "build": "parcel build",
+    "build:first": "parcel build src/first/index.html --dist-dir dist/first/$name --detailed-report",
+    "build:second": "parcel build src/second/index.html --dist-dir dist/second/$name --detailed-report"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0"
+  }
+}

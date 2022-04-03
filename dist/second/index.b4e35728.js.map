@@ -1,0 +1,1 @@
+{"mappings":"AACAA,QAAQC,IAAI,kCCAZD,QAAQC,IAAI","sources":["src/common/js/index.js","src/second/js/index.js"],"sourcesContent":["\nconsole.log('----- common js function -----')","import '/src/common/js/index';\nconsole.log(' ---- second page load ----')"],"names":["console","log"],"version":3,"file":"index.b4e35728.js.map"}
